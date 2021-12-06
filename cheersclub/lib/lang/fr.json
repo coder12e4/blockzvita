@@ -1,0 +1,79 @@
+{
+"INJUST3STEPS":"EN 3 ÉTAPES SEULEMENT",
+"Surprise":"Étonnez votre famille et vos amis en leur offrant un verre dans un lieu sympa",
+"SELECTAHOTSPOT":"1. SÉLECTIONNEZ UN LIEU",
+"SELECTgiftofyourchoice":"2.CHOISISSEZ UN CADEAU",
+"leavemessage&PAY":"3.ÉCRIVEZ UN MESSAGE & PAYEZ",
+
+
+ "Home":"Accueil",
+ "Login":"Connexion",
+ "Newuser":"Nouvel Utilisateur",
+ "Placeanorder":"Commander",
+ "TermsConditions":"CGV",
+ "Privacystatement":"Confidentialité",
+ "Settings":"Paramètres",
+ "FAQ":"FAQ",
+ "Contactus":"Nous Contacter",
+ 
+"dashboard":"Mon Dashboard",
+"Findfriends":"Trouver mes Amis",
+"Place an order2":"Commander",
+"Terms & Conditions2":"CGV",
+"Privacy statement2":"Confidentialité",
+"Settings2":"Paramètres",
+"FAQ2":" FAQ",
+"Contact us2":"Contact us",
+"Logout":"Déconnexion",
+
+
+
+"Createandaccount":" Créer un Compte",
+"AlreadyhaveandaccountLogin":"Déjà Enregistré? Connexion",
+"Customertype":"Type de Client",
+
+
+"Wheredoyouwanttocreateahappymemory?":"Où Créer un Joli Souvenir?",
+"Searchfriendsorrestaurant":"Trouver mes Amis / un Lieu",
+"Restaurantshotspots":"Liste des Restaurants",
+
+
+"Placeanorder2":" Commander ",
+"Myorder":"Mes Commandes ",
+"Mygreetings":"Mes Messages",
+"Myprofile":"Mon Profil",
+"Changepassword":"Changer Mot de Passe",
+"Editprofile":"Modifier mon Profil",
+"Saveprofile":"Sauvegarder mon Profil",
+"Personaldetails":" Infos Personnelles",
+
+"Drinks":"Boissons",
+"Desserts":"Desserts",
+"Bites":" Snacks",
+
+
+"Mycart":"Mon Panier",
+"Description":"Description",
+"Quantity":"Quantité",
+"Total":"Total",
+"Remove":"Supprimer",
+"Transaction fee2":"Frais de Transaction",
+"Total2":"Total",
+"Whomtosurprise":"À qui faire la Surprise?",
+
+
+"Leavemessage":"Écrire un Message",
+"Send":"Envoyer",
+"Reachus":"Contactez-Nous",
+
+
+
+"Settings3":"Paramètres",
+"Allowallpushnotifications":"Autoriser toutes les Notifications?",
+"Makemylocationvisibletomychherzclubfriends":"Autoriser mes Amis CheerzClub à me Localiser",
+
+"Deactivateorsuspendmyaccount":"Désactiver / Suspendre mon Compte",
+"Language":"Langue",
+"Signout":"Déconnexion"
+  
+}
