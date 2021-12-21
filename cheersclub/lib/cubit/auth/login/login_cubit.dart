@@ -8,19 +8,29 @@ import 'package:result_type/result_type.dart';
 part 'login_state.dart';
 
 class LoginCubit extends Cubit<LoginState> {
-  LoginCubit(this.loginRepository) : super(LoginInitial());
+
   final LoginRepository loginRepository;
 
+  LoginCubit(this.loginRepository) : super(LoginInitial());
+
+
   Future<void> authenticateUser(String? username, String? password) async {
+
     emit(LoginLoading());
+
     Result? result = await loginRepository.authenticateUser(username, password);
 
     if (result.isSuccess) {
       UserSession userSession = UserSession.fromJson(result.success);
       UserManager.instance.setUserSession(userSession);
+
       emit(LoginSuccessFull(userSession));
+
     } else {
+
       emit(LoginFailed(result.failure));
     }
   }
+
+
 }

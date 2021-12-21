@@ -14,8 +14,8 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:page_transition/page_transition.dart';
-
 import 'forgetPassword.dart';
+
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -23,15 +23,20 @@ class LoginScreen extends StatefulWidget {
   _LoginScreenState createState() => _LoginScreenState();
 }
 
+
 class _LoginScreenState extends State<LoginScreen> {
+
   var Username_Controller = TextEditingController();
   var Password_Controller = TextEditingController();
+
   String? _password = "";
   String? _username = "";
   bool _isObscure = true;
   bool value = false;
   GlobalKey<ScaffoldState>? _key = GlobalKey();
+
   late LoginCubit loginCubit;
+
   @override
   void initState() {
     // TODO: implement initState
@@ -49,7 +54,9 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return
+
+      Scaffold(
       /*
       Container(
         // height: MediaQuery.of(context).size.height,
@@ -306,6 +313,7 @@ class _LoginScreenState extends State<LoginScreen> {
             listener: (context, state) {
               if (state is LoginLoading) {}
               if (state is LoginSuccessFull) {
+                var k = state.userSession;
                 Navigator.push(
                   context,
                   PageTransition(
@@ -315,17 +323,21 @@ class _LoginScreenState extends State<LoginScreen> {
                       inheritTheme: true,
                       ctx: context),
                 );
-              } else if (state is LoginFailed) {
+              }
+              else if (state is LoginFailed) {
                 Utils.showDialouge(
                     context, AlertType.error, "Oops!", state.msg);
               }
             },
-            child:
-                BlocBuilder<LoginCubit, LoginState>(builder: (context, state) {
+
+            child: BlocBuilder<LoginCubit, LoginState>(builder: (context, state) {
+
               return loginform();
+
             }),
           )),
     );
+
   }
 
   Widget loginform() {
@@ -524,6 +536,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               GestureDetector(
                 onTap: () {
+
                   login();
                 },
                 child: Container(
