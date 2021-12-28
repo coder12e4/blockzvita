@@ -1,12 +1,10 @@
 import 'dart:async';
-
 import 'package:cheersclub/cubit/auth/authentication/auth_cubit.dart';
 import 'package:cheersclub/cubit/repository/authentication_repository.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import 'Home.dart';
 import 'LoginScreen.dart';
 
